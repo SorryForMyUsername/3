@@ -136,18 +136,20 @@ namespace Компьютерный_практикум__3
             //string st = "\"Урок\"";
 
 
-            //for(int i = Console.WindowWidth - 1; i >= 0; i--)
+            //for (int i = Console.WindowWidth - 1; i >= 0; i--)
             //{
-            //    if(i - st.Length < 0)
+            //    if (i - st.Length < 0)
             //    {
             //        Console.SetCursorPosition(0, 0);
             //        Console.Write($"{st.Substring(Math.Abs(i - st.Length))} ");
             //        System.Threading.Thread.Sleep(1000);
-            //        continue;
             //    }
-            //    Console.SetCursorPosition(i - st.Length, 0);
-            //    Console.Write($"{st} ");
-            //    System.Threading.Thread.Sleep(1000);
+            //    else
+            //    {
+            //        Console.SetCursorPosition(i - st.Length, 0);
+            //        Console.Write($"{st} ");
+            //        System.Threading.Thread.Sleep(1000);
+            //    }
             //}
 
             Console.ReadKey();
